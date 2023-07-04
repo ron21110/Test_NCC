@@ -1,38 +1,121 @@
 .App {
+  margin-left: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.logo {
+  
   pointer-events: none;
+  width: 310px;
+  height: 122px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.container_content1{
+
+  background: #EFEFEF;
+  width: 1510px;
+  height: 210px;
+}
+.h1_content1{
+  padding-top: 35px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #000;
+font-size: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
-.App-link {
-  color: #61dafb;
+.div_content1{
+  display: inline-block;
+  width: 972px;
+  line-height: normal;
+  text-align: center;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.content2{
+  width: 470px;
+height: 252px;
+}
+.content2_con{
+  text-align: left;
+}
+.content2_con_duoi{
+    text-align: left;
+
+}
+.i1{
+  width: 128px;
+height: 128px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer{
+  
+  border-top: 1px solid #3E3E3E;
+  margin-top: 43vh;
+  font-family: Roboto;  
+  color: #3E3E3E;
+font-size: 16px;
+
+font-style: normal;
+font-weight: 400;
+}
+.menu_container{
+  width: 150px;
+height: 935px;
+background: #191718;
+text-align: left;
+
+}
+.menu_container ul li a {
+ 
+color: #FFF;
+font-size: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+border-bottom: 1px solid #5C5C5C;
+}
+.menu_container ul li {
+  list-style: none;
+  /* border-bottom: 1px solid black; */
+  padding: 10px 0;
+}
+hr {
+  width: 100%;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  
+}
+
+
+.row1{
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .row1 {
+    margin-bottom: 100px ;
+    display: block;
+    margin-left: 35%;
+    
   }
-  to {
-    transform: rotate(360deg);
+  .content2{
+    margin-bottom: 50px;
+  }
+  .menu_container{
+    height: 100vh;
+
   }
 }
