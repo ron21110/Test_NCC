@@ -148,7 +148,22 @@ hr {
     margin-bottom: 50px;
   }
   .menu_container{
-    height: 100vh;
+    height: 100%;
+
+  }
+}
+@media screen and (max-width: 480px) {
+  .row1 {
+    margin-bottom: 100px ;
+    display: block;
+    margin-left: 35%;
+    
+  }
+  .content2{
+    margin-bottom: 50px;
+  }
+  .menu_container{
+    height: 50%;
 
   }
 }
