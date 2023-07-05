@@ -1,4 +1,5 @@
 import React from "react";
+import Border from "./Border.png";
 
 function Menu(props) {
   return (
@@ -6,24 +7,24 @@ function Menu(props) {
       <ul className="menu_ul">
         <li>
           <a href="./">Home</a>
-          <hr></hr>
         </li>
+        <img className="boder" src={Border} alt="i1" />
         <li>
           <a href="./">Services</a>
-          <hr></hr>
         </li>
+        <img className="boder" src={Border} alt="i1" />
         <li>
           <a href="./">News</a>
-          <hr></hr>
         </li>
+        <img className="boder" src={Border} alt="i1" />
         <li>
           <a href="./">Blog</a>
-          <hr></hr>
         </li>
+        <img className="boder" src={Border} alt="i1" />
         <li>
           <a href="./">Contact</a>
-          <hr></hr>
         </li>
+        <img className="boder" src={Border} alt="i1" />
       </ul>
     </div>
   );

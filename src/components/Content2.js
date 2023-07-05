@@ -7,7 +7,7 @@ function Content2(props) {
   return (
     <div className="row1">
       <div className="content2">
-        <h1>Lorem ipsum dolor sit amet</h1>
+        <h1 className="h1_content2">Lorem ipsum dolor sit amet</h1>
         <div className="row">
           <img className="i1" src={i1} alt="i1" />
           <div className="content2_con">
@@ -26,7 +26,7 @@ function Content2(props) {
         </div>
       </div>
       <div className="content2">
-        <h1>Lorem ipsum dolor sit amet</h1>
+        <h1 className="h1_content2"> Lorem ipsum dolor sit amet</h1>
         <div className="row">
           <img className="i2" src={i2} alt="i2" />
           <div className="content2_con">
@@ -45,7 +45,7 @@ function Content2(props) {
         </div>
       </div>
       <div className="content2">
-        <h1>Lorem ipsum dolor sit amet</h1>
+        <h1 className="h1_content2">Lorem ipsum dolor sit amet</h1>
         <div className="row">
           <img className="i3" src={i3} alt="i3" />
           <div className="content2_con">
